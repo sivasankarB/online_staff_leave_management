@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=password], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=date], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=email], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=number], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+input[type=reset] {
+	width: 100%;
+	background-color: #d33734;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=reset]:hover {
+	background-color: #f71511;
+}
+
+div {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 30px;
+	width: 450px;
+	margin-left: 450px;
+	margin-top: 100px;
+	height: 630px;
+}
+
+a:link, a:visited {
+	width: 88%;
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+body {
+  background-color:#adad85;
+  background-repeat: no-repeat, repeat;
+  background-size:cover;
+}
+</style>
+<body>
+
+	<h1
+		style="color: yellow; background-color: black; height: 40px; text-align: center; padding: 10px;margin: 0px;">HOD Register
+		Form</h1>
+
+	<div>
+		<form action="hodnewregister"  method="post" style="width: 400px;">
+			
+			<label>User name</label> <input type="text" id="name" name="username" placeholder="Your  name.."> <br>
+			<label>Password</label> <input type="password" id="password" name="password" placeholder="Your password.."><br> 
+			<label>Designation</label><input type="text" id="designation" name="designation" placeholder="Your designation.."> <br> 
+			<label>Department</label> <select name="department">
+				<option></option>
+				<option>cse</option>
+				<option >ece</option>
+				<option >it</option>
+				<option >eee</option>
+				<option >auto</option>
+				<option >mech</option>
+			
+			</select><br>
+			<label>Email</label> <input type="text" id="email" name="email" placeholder="email.."> 
+			<label>Contact</label> <input type="number" id="contact" name="contact" placeholder="contact..">
+			<input type="submit" value="Register"> <input type="reset" value="reset">
+			<hr>
+			<a href="hodlogin.html">Back</a>
+		</form>
+	</div>
+</body>
+</html>

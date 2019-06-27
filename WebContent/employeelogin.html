@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=password], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+#sub {
+	border-radius: 5px;
+	background-color: #cdd3d6;
+	padding: 30px;
+	width: 400px;
+	margin-left: 450px;
+	margin-top: 100px;
+	height: 340px;
+}
+
+a:link, a:visited {
+	width: 88%;
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+body {
+  background-image: url("bg7.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size:cover;
+}
+</style>
+</head>
+<body>
+
+	<h1
+		style="color: yellow; background-color: black; height: 40px; text-align: center; padding: 10px;margin: 0px;">Employee
+		Login</h1>
+
+
+
+
+	<div id="sub">
+		<form action="employeevalid" method="post" style="width: 400px;">
+			<label">User Name</label> <input type="text" id="fname"
+				name="username" placeholder="Your Name.."> <label">Password</label>
+			<input type="password" id="lname" name="password"
+				placeholder="Your Last Name.."> <input type="submit"
+				value="Sign in">
+			<hr>
+			<a href="requestform.html"> Signup or new user</a>
+			<hr>
+			<a href="index.html">Back</a>
+	</div>
+
+	</form>
+	</div>
+</body>
+</html>
